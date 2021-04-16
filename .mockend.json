@@ -1,5 +1,5 @@
 {
-    "share": {
+    "Share": {
         "share_id": "int",
         "share_name": "string",
         "share_path": "string",
