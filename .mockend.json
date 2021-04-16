@@ -6,7 +6,6 @@
         "pass": "string"
     },
     "DataSourceType": {
-        "id": "int",
         "name": "string",
         "dataSource": "string"
     },
