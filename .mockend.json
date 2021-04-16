@@ -7,10 +7,6 @@
         "comments": "Comment[]"
     },
     "Comment": {
-        "body": "string",
-        "post": "Post"
-    },
-    "Shares": {
         "share_id": "int",
         "share_name": "string",
         "share_path": "string",
