@@ -1,15 +1,14 @@
 {
-    "Shares": {
-        "share_id": "int",
-        "share_name": "string",
-        "share_path": "string",
-        "share_user": "string",
-        "share_pass": "string"
+    "Share": {
+        "name": "string",
+        "path": "string",
+        "user": "string",
+        "pass": "string"
     },
-    "data_source_types": {
-        "data_source_type_id": "int",
-        "data_source_type_name": "string",
-        "data_source_string": "string"
+    "DataSourceType": {
+        "id": "int",
+        "name": "string",
+        "dataSource": "string"
     },
     "output_types": {
         "output_type_id": "int",
