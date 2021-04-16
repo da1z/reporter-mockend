@@ -14,24 +14,22 @@
         "outputCd": "string"
     },
     "TasksEmailDetail": {
-        "output_email_id": "int",
+        // "output_email_id": "int",
         "subject": "string",
-        "email_to": "string",
-        "email_cc": "string",
-        "email_bcc": "string",
-        "email_body": "string"
+        "emailTo": "string",
+        "emailCc": "string",
+        "emailBcc": "string",
+        "emailBody": "string"
     },
-    "tasks_log_run_statuses": {
-        "tasks_log_run_status_id": "int",
-        "tasks_log_run_status_cd": "string"
+    "TasksLogRunStatus": {
+        "statusCd": "string"
     },
-    "data_sources": {
-        "data_source_id": "int",
-        "data_source_name": "string",
+    "DataSource": {
+        "name": "string",
         "host": "string",
-        "user_id": "string",
+        "userId": "string",
         "password": "string",
-        "source_type_id": "int",
+        "sourceType": "DataSourceType",
         "port": "string"
     },
     "tasks": {
