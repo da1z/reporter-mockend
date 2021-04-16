@@ -7,7 +7,8 @@
     },
     "DataSourceType": {
         "name": "string",
-        "dataSource": "string"
+        "dataSource": "string",
+        "dataSources": "DataSource[]"
     },
     "OutputType": {
         "outputCd": "string"
