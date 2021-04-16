@@ -14,7 +14,6 @@
         "outputCd": "string"
     },
     "TasksEmailDetail": {
-        // "output_email_id": "int",
         "subject": "string",
         "emailTo": "string",
         "emailCc": "string",
