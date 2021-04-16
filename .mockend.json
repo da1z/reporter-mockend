@@ -10,11 +10,10 @@
         "name": "string",
         "dataSource": "string"
     },
-    "output_types": {
-        "output_type_id": "int",
-        "output_cd": "string"
+    "OutputType": {
+        "outputCd": "string"
     },
-    "tasks_email_details": {
+    "TasksEmailDetails": {
         "output_email_id": "int",
         "subject": "string",
         "email_to": "string",
