@@ -28,7 +28,7 @@
         "host": "string",
         "userId": "string",
         "password": "string",
-        "sourceType": "DataSourceType",
+        "dataSourceType": "DataSourceType",
         "port": "string"
     },
     "tasks": {
