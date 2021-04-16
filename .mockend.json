@@ -13,7 +13,7 @@
     "OutputType": {
         "outputCd": "string"
     },
-    "TasksEmailDetails": {
+    "TasksEmailDetail": {
         "output_email_id": "int",
         "subject": "string",
         "email_to": "string",
