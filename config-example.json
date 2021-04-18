@@ -1,50 +1,73 @@
 {
-   "config_task_data_source":[
+   "default_tasks_status":[
+      
+   ],
+   "config_task_share":[
       {
-         "config_task_data_source_id":9,
-         "config_task_data_source_name":"source_name 1",
-         "config_task_host":"host 1",
-         "config_task_user_id":"user_id",
-         "config_task_password":"password",
-         "config_task_port":"port",
-         "default_data_source_type_id":1
+         "config_share_id":1,
+         "config_share_name":"share_name 5",
+         "config_share_path":"path 5",
+         "config_share_user":"user 1",
+         "config_share_pass":"password 1"
       },
       {
-         "config_task_data_source_id":10,
-         "config_task_data_source_name":"source_name 2",
-         "config_task_host":"host 2",
-         "config_task_user_id":"user_id",
-         "config_task_password":"password",
-         "config_task_port":"port",
-         "default_data_source_type_id":2
+         "config_share_id":2,
+         "config_share_name":"share_name 2",
+         "config_share_path":"path 2",
+         "config_share_user":"user 2",
+         "config_share_pass":"password 2"
       },
       {
-         "config_task_data_source_id":11,
-         "config_task_data_source_name":"source_name 3",
-         "config_task_host":"host 3",
-         "config_task_user_id":"user_id",
-         "config_task_password":"password",
-         "config_task_port":"port",
-         "default_data_source_type_id":3
+         "config_share_id":3,
+         "config_share_name":"share_name 3",
+         "config_share_path":"path 3",
+         "config_share_user":"user 3",
+         "config_share_pass":"password 3"
       },
       {
-         "config_task_data_source_id":12,
-         "config_task_data_source_name":"source_name 4",
-         "config_task_host":"host 4",
-         "config_task_user_id":"user_id",
-         "config_task_password":"password",
-         "config_task_port":"port",
-         "default_data_source_type_id":4
+         "config_share_id":4,
+         "config_share_name":"share_name 4",
+         "config_share_path":"path 4",
+         "config_share_user":"user 4",
+         "config_share_pass":"password 4"
       },
       {
-         "config_task_data_source_id":13,
-         "config_task_data_source_name":"source_name 5",
-         "config_task_host":"host 5",
-         "config_task_user_id":"user_id",
-         "config_task_password":"password",
-         "config_task_port":"port",
-         "default_data_source_type_id":5
+         "config_share_id":5,
+         "config_share_name":"share_name 5",
+         "config_share_path":"path 5",
+         "config_share_user":"user 5",
+         "config_share_pass":"password 5"
       }
+   ],
+   "default_data_source_type":[
+      {
+         "default_data_source_type_id":1,
+         "default_data_source_type_name":"type_name  1",
+         "default_data_source_string":"source_string 1"
+      },
+      {
+         "default_data_source_type_id":2,
+         "default_data_source_type_name":"type_name 2",
+         "default_data_source_string":"source_string 2"
+      },
+      {
+         "default_data_source_type_id":3,
+         "default_data_source_type_name":"type_name 3",
+         "default_data_source_string":"source_string 3"
+      },
+      {
+         "default_data_source_type_id":4,
+         "default_data_source_type_name":"type_name 4",
+         "default_data_source_string":"source_string 4"
+      },
+      {
+         "default_data_source_type_id":5,
+         "default_data_source_type_name":"type_name 5",
+         "default_data_source_string":"source_string 5"
+      }
+   ],
+   "default_output_type":[
+      
    ],
    "config_task_email":[
       {
@@ -96,6 +119,9 @@
          "config_task_email_body":"email_body5"
       }
    ],
+   "default_task_log_run_status":[
+      
+   ],
    "config_task_ftp":[
       {
          "config_task_ftp_id":1,
@@ -138,6 +164,62 @@
          "config_task_ftp_ssh_key":"key5"
       }
    ],
+   "config_task_data_source":[
+      {
+         "config_task_data_source_id":9,
+         "config_task_data_source_name":"source_name 1",
+         "config_task_host":"host 1",
+         "config_task_user_id":"user_id",
+         "config_task_password":"password",
+         "config_task_port":"port",
+         "default_data_source_type_id":1
+      },
+      {
+         "config_task_data_source_id":10,
+         "config_task_data_source_name":"source_name 2",
+         "config_task_host":"host 2",
+         "config_task_user_id":"user_id",
+         "config_task_password":"password",
+         "config_task_port":"port",
+         "default_data_source_type_id":2
+      },
+      {
+         "config_task_data_source_id":11,
+         "config_task_data_source_name":"source_name 3",
+         "config_task_host":"host 3",
+         "config_task_user_id":"user_id",
+         "config_task_password":"password",
+         "config_task_port":"port",
+         "default_data_source_type_id":3
+      },
+      {
+         "config_task_data_source_id":12,
+         "config_task_data_source_name":"source_name 4",
+         "config_task_host":"host 4",
+         "config_task_user_id":"user_id",
+         "config_task_password":"password",
+         "config_task_port":"port",
+         "default_data_source_type_id":4
+      },
+      {
+         "config_task_data_source_id":13,
+         "config_task_data_source_name":"source_name 5",
+         "config_task_host":"host 5",
+         "config_task_user_id":"user_id",
+         "config_task_password":"password",
+         "config_task_port":"port",
+         "default_data_source_type_id":5
+      }
+   ],
+   "task":[
+      
+   ],
+   "task_log":[
+      
+   ],
+   "tasks_log_details":[
+      
+   ],
    "config_task_group":[
       {
          "config_task_group_id":1,
@@ -158,43 +240,6 @@
       {
          "config_task_group_id":5,
          "config_task_group_name":"group_name 5"
-      }
-   ],
-   "config_task_share":[
-      {
-         "config_share_id":1,
-         "config_share_name":"share_name 5",
-         "config_share_path":"path 5",
-         "config_share_user":"user 1",
-         "config_share_pass":"password 1"
-      },
-      {
-         "config_share_id":2,
-         "config_share_name":"share_name 2",
-         "config_share_path":"path 2",
-         "config_share_user":"user 2",
-         "config_share_pass":"password 2"
-      },
-      {
-         "config_share_id":3,
-         "config_share_name":"share_name 3",
-         "config_share_path":"path 3",
-         "config_share_user":"user 3",
-         "config_share_pass":"password 3"
-      },
-      {
-         "config_share_id":4,
-         "config_share_name":"share_name 4",
-         "config_share_path":"path 4",
-         "config_share_user":"user 4",
-         "config_share_pass":"password 4"
-      },
-      {
-         "config_share_id":5,
-         "config_share_name":"share_name 5",
-         "config_share_path":"path 5",
-         "config_share_user":"user 5",
-         "config_share_pass":"password 5"
       }
    ]
 }
