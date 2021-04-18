@@ -1,6 +1,6 @@
 {
     "Smtp": {
-        "id": "string",
+        "smtpId": "string",
         "host": "string",
         "userName": "string",
         "password": "string",
