@@ -1,1 +1,66 @@
-{config_task_data_source:[{config_task_data_source_id:9,config_task_data_source_name:\"source_name 1\",config_task_host:\"host 1\",config_task_user_id:\"user_id\",config_task_password:\"password\",config_task_port:\"port\",default_data_source_type_id:1},{config_task_data_source_id:10,config_task_data_source_name:\"source_name 2\",config_task_host:\"host 2\",config_task_user_id:\"user_id\",config_task_password:\"password\",config_task_port:\"port\",default_data_source_type_id:2},{config_task_data_source_id:11,config_task_data_source_name:\"source_name 3\",config_task_host:\"host 3\",config_task_user_id:\"user_id\",config_task_password:\"password\",config_task_port:\"port\",default_data_source_type_id:3},{config_task_data_source_id:12,config_task_data_source_name:\"source_name 4\",config_task_host:\"host 4\",config_task_user_id:\"user_id\",config_task_password:\"password\",config_task_port:\"port\",default_data_source_type_id:4},{config_task_data_source_id:13,config_task_data_source_name:\"source_name 5\",config_task_host:\"host 5\",config_task_user_id:\"user_id\",config_task_password:\"password\",config_task_port:\"port\",default_data_source_type_id:5}],config_task_email:[{config_task_email_id:1,config_task_email_subject:\"subject1\",config_task_email_to:\"email_to1\",config_task_email_cc:\"email_cc1\",config_task_email_bcc:\"email_bcc1\",config_task_email_body:\"email_body1\"},{config_task_email_id:2,config_task_email_subject:\"subject2\",config_task_email_to:\"email_to2\",config_task_email_cc:\"email_cc2\",config_task_email_bcc:\"email_bcc2\",config_task_email_body:\"email_body2\"},{config_task_email_id:3,config_task_email_subject:\"subject3\",config_task_email_to:\"email_to3\",config_task_email_cc:\"email_cc3\",config_task_email_bcc:\"email_bcc3\",config_task_email_body:\"email_body3\"},{config_task_email_id:4,config_task_email_subject:\"subject3\",config_task_email_to:\"email_to3\",config_task_email_cc:\"email_cc3\",config_task_email_bcc:\"email_bcc3\",config_task_email_body:\"email_body3\"},{config_task_email_id:5,config_task_email_subject:\"subject4\",config_task_email_to:\"email_to4\",config_task_email_cc:\"email_cc4\",config_task_email_bcc:\"email_bcc4\",config_task_email_body:\"email_body4\"},{config_task_email_id:6,config_task_email_subject:\"subject5\",config_task_email_to:\"email_to5\",config_task_email_cc:\"email_cc5\",config_task_email_bcc:\"email_bcc5\",config_task_email_body:\"email_body5\"}],config_task_ftp:[{config_task_ftp_id:1,config_task_ftp_host:\"myHost1.com\",config_task_ftp_user:\"user1\",config_task_ftp_pass:\"password1\",config_task_ftp_location:\"location1\",config_task_ftp_ssh_key:\"key1\"},{config_task_ftp_id:2,config_task_ftp_host:\"myHost2.com\",config_task_ftp_user:\"user2\",config_task_ftp_pass:\"password2\",config_task_ftp_location:\"location2\",config_task_ftp_ssh_key:\"key2\"},{config_task_ftp_id:3,config_task_ftp_host:\"myHost3.com\",config_task_ftp_user:\"user3\",config_task_ftp_pass:\"password3\",config_task_ftp_location:\"location3\",config_task_ftp_ssh_key:\"key3\"},{config_task_ftp_id:4,config_task_ftp_host:\"myHost4.com\",config_task_ftp_user:\"user4\",config_task_ftp_pass:\"password4\",config_task_ftp_location:\"location4\",config_task_ftp_ssh_key:\"key4\"},{config_task_ftp_id:5,config_task_ftp_host:\"myHost5.com\",config_task_ftp_user:\"user5\",config_task_ftp_pass:\"password5\",config_task_ftp_location:\"location5\",config_task_ftp_ssh_key:\"key5\"}],config_task_group:[{config_task_group_id:1,config_task_group_name:\"group_name 1\"},{config_task_group_id:2,config_task_group_name:\"group_name 2\"},{config_task_group_id:3,config_task_group_name:\"group_name 3\"},{config_task_group_id:4,config_task_group_name:\"group_name 4\"},{config_task_group_id:5,config_task_group_name:\"group_name 5\"}],config_task_share:[{config_share_id:1,config_share_name:\"share_name 5\",config_share_path:\"path 5\",config_share_user:\"user 1\",config_share_pass:\"password 1\"},{config_share_id:2,config_share_name:\"share_name 2\",config_share_path:\"path 2\",config_share_user:\"user 2\",config_share_pass:\"password 2\"},{config_share_id:3,config_share_name:\"share_name 3\",config_share_path:\"path 3\",config_share_user:\"user 3\",config_share_pass:\"password 3\"},{config_share_id:4,config_share_name:\"share_name 4\",config_share_path:\"path 4\",config_share_user:\"user 4\",config_share_pass:\"password 4\"},{config_share_id:5,config_share_name:\"share_name 5\",config_share_path:\"path 5\",config_share_user:\"user 5\",config_share_pass:\"password 5\"}]}
+{
+    "Smtp": {
+        "smtpId": "string",
+        "host": "string",
+        "userName": "string",
+        "password": "string",
+        "isWinAuth": "boolean"
+    },
+    "Share": {
+        "name": "string",
+        "path": "string",
+        "user": "string",
+        "pass": "string"
+    },
+    "DataSourceType": {
+        "name": "string",
+        "dataSource": "string",
+        "dataSources": "DataSource[]"
+    },
+    "OutputType": {
+        "outputCd": "string"
+    },
+    "TasksEmailDetail": {
+        "subject": "string",
+        "emailTo": "string",
+        "emailCc": "string",
+        "emailBcc": "string",
+        "emailBody": "string"
+    },
+    "TasksLogRunStatus": {
+        "statusCd": "string"
+    },
+    "DataSource": {
+        "name": "string",
+        "host": "string",
+        "userId": "string",
+        "password": "string",
+        "dataSourceType": "DataSourceType",
+        "port": "string"
+    },
+    "tasks": {
+        "task_id": "int",
+        "task_name": "string",
+        "data_source_id": "int",
+        "share_id": "int",
+        "task_status_id": "int",
+        "output_email_id": "int",
+        "output_type_id": "int"
+    },
+    "tasks_log": {
+        "task_log_seq_no": "int",
+        "task_start_time": "date",
+        "task_end_time": "date",
+        "task_id": "int",
+        "tasks_log_run_status_id": "int"
+    },
+    "tasks_log_details": {
+        "details_id": "int",
+        "details_text": "string",
+        "task_log_seq_no": "int"
+    },
+    "tasks_statuses": {
+        "task_status_id": "int",
+        "task_status_cd": "string"
+    }
+}
