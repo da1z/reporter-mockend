@@ -32,9 +32,10 @@
         "statusCd": "string"
     },
     "DataSource": {
+        "dataSourceId": "string",
         "name": "string",
         "host": "string",
-        "userId": "string",
+        "userName": "string",
         "password": "string",
         "dataSourceType": "DataSourceType",
         "port": "string"
