@@ -7,10 +7,11 @@
         "isWinAuth": "boolean"
     },
     "Share": {
+        "shareId": "string",
         "name": "string",
         "path": "string",
-        "user": "string",
-        "pass": "string"
+        "userName": "string",
+        "password": "string"
     },
     "DataSourceType": {
         "dataSourceTypeId": "string",
