@@ -1,24 +1,14 @@
 {
-  "Dashboard": { 
-    "totalTasks": { 
-      "int": { "min": 1111, "max": 44444 } 
-    },
-    "dailyTasks": { 
-      "int": { "min": 111, "max": 555 } 
-    },
-    "dailyTasksPlanned" : {
-      "int": { "min": 555, "max": 777 }
-    },
-    "loadHistory" : {
+  "Dashboard": {
+    "title": { "string": {} },
+    "loadHistory": {
       "hasMany": "LoadHistory"
     }
   },
   "LoadHistory": {
-    "dailyTasks": { 
-      "int": { "min": 111, "max": 555 } 
-    },
+    "body": { "string": {} },
     "dashboard": {
-        "belongsTo": "Dashboard"
+      "belongsTo": "Dashboard"
     }
   }
 }
