@@ -11,6 +11,11 @@
       },
       "loadHistory" : {
         "hasMany": "Loadhistory"
+      },
+      "groupsAllocation": {
+          "name": {
+              "string":{}
+          }
       }
     },
     "Loadhistory": {
@@ -20,6 +25,6 @@
       "dashboard": {
           "belongsTo": "Dashboard"
       }
-    }
+    },
   }
   
