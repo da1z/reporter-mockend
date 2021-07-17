@@ -9,7 +9,7 @@
     "dailyTasksPlanned" : {
       "int": { "min": 555, "max": 777 }
     },
-    "systemLoadHistory" : {
+    "loadHistory" : {
       "hasMany": "LoadHistory"
     }
   },
