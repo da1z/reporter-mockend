@@ -25,7 +25,7 @@
     },
     "Group": {
         "name": {
-            "string": ['System Alerts', 'Reports' ]
+            "string": ["System Alerts", "Reports" ]
         },
         "dailyTasks": {
             "int" : { "min": 10, "max": 70}
