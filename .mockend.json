@@ -5,6 +5,9 @@
     },
     "dailyTasks": { 
       "int": { "min": 111, "max": 555 } 
-    } 
+    },
+    "dailyTasksPlanned" : {
+      "int": { "min": 555, "max": 777 }
+    }
   }
 }
