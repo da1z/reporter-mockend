@@ -13,6 +13,7 @@
         "hasMany": "Loadhistory"
       },
       "groups": {
+        "hasMany": "Group"
       }
     },
     "Loadhistory": {
