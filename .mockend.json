@@ -2,8 +2,8 @@
     "Dashboard": {
         "totalTasks": {
             "int": {
-                min: 1111,
-                max: 4444
+                "min": 1111,
+                "max": 4444
             }
         }
     },
