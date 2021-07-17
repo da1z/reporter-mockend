@@ -13,7 +13,7 @@
       "hasMany": "SystemLoadItem"
     }
   },
-  "Comment": {
+  "LoadHistory": {
     "dailyTasks": { 
       "int": { "min": 111, "max": 555 } 
     },
