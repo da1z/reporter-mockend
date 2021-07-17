@@ -16,6 +16,9 @@
   "SystemLoadItem": {
     "dailyTasks": { 
       "int": { "min": 111, "max": 555 } 
+    },
+    "dashboard": {
+        "belongsTo": "Dashboard"
     }
   }
 }
