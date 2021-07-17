@@ -1,11 +1,11 @@
 {
   "Dashboard": {
     "title": { "string": {} },
-    "loadHistory": {
-      "hasMany": "LoadHistory"
+    "loadHistoryItems": {
+      "hasMany": "LoadHistoryItem"
     }
   },
-  "LoadHistory": {
+  "LoadHistoryItem": {
     "body": { "string": {} },
     "dashboard": {
       "belongsTo": "Dashboard"
