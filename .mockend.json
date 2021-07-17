@@ -12,10 +12,7 @@
       "loadHistory" : {
         "hasMany": "Loadhistory"
       },
-      "groupsAllocation": {
-          "name": {
-              "string":{}
-          }
+      "groups": {
       }
     },
     "Loadhistory": {
@@ -26,5 +23,13 @@
           "belongsTo": "Dashboard"
       }
     },
+    "Group": {
+        "name": {
+            "string": {}
+        },
+        "dailyTasks": {
+            "int" : { "min": 10, "max": 35}
+        }
+    }
   }
   
