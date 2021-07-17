@@ -1,4 +1,12 @@
 {
+    "Dashboard": {
+        "totalTasks": {
+            "int": {
+                min: 1111,
+                max: 4444
+            }
+        }
+    },
     "Smtp": {
         "smtpId": "string",
         "host": "string",
