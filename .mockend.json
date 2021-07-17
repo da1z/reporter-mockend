@@ -5,7 +5,7 @@
       "hasMany": "LoadHistoryItem"
     }
   },
-  "Comment": {
+  "Loadhistory": {
     "body": { "string": {} },
     "dashboard": {
       "belongsTo": "Dashboard"
