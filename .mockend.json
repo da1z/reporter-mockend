@@ -13,9 +13,10 @@
       "hasMany": "SystemLoadItem"
     }
   },
-  "SystemLoadItem": {
-    "totalTasks": {
-      "int": { "min": 111, "max": 555 } 
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
     }
   }
 }
