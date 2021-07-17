@@ -8,6 +8,14 @@
     },
     "dailyTasksPlanned" : {
       "int": { "min": 555, "max": 777 }
+    },
+    "systemLoadHistory" : {
+      "hasMany": "SystemLoadItem"
+    }
+  },
+  "SystemLoadItem": {
+    "totalTasks": {
+      "int": { "min": 111, "max": 555 } 
     }
   }
 }
