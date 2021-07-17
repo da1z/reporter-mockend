@@ -1,14 +1,25 @@
 {
-  "Dashboard": {
-    "title": { "string": {} },
-    "loadHistoryItems": {
-      "hasMany": "LoadHistoryItem"
-    }
-  },
-  "Loadhistory": {
-    "body": { "string": {} },
-    "dashboard": {
-      "belongsTo": "Dashboard"
+    "Dashboard": { 
+      "totalTasks": { 
+        "int": { "min": 1111, "max": 44444 } 
+      },
+      "dailyTasks": { 
+        "int": { "min": 111, "max": 555 } 
+      },
+      "dailyTasksPlanned" : {
+        "int": { "min": 555, "max": 777 }
+      },
+      "loadHistory" : {
+        "hasMany": "Loadhistory"
+      }
+    },
+    "Loadhistory": {
+      "dailyTasks": { 
+        "int": { "min": 111, "max": 555 } 
+      },
+      "dashboard": {
+          "belongsTo": "Dashboard"
+      }
     }
   }
-}
+  
