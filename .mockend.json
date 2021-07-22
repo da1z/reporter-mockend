@@ -16,7 +16,7 @@
         "hasMany": "Group"
       },
       "lastActivities": {
-        "hasMany": "ActivityItem"
+        "hasMany": "Activityitem"
       }
     },
     "Loadhistory": {
@@ -35,7 +35,7 @@
             "int" : { "min": 10, "max": 70}
         }
     },
-    "ActivityItem": {
+    "Activityitem": {
         "id": { "int": {} }
     }
   }
