@@ -36,7 +36,8 @@
         }
     },
     "Activityitem": {
-        "id": { "int": { "min": 1272, "max": 8978878 } }
+        "actionId": { "int": { "min": 1272, "max": 8978878 } },
+        "actionDescription": { "string" : {} },
     }
   }
   
