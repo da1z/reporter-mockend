@@ -15,9 +15,6 @@
       "groups": {
         "hasMany": "Group"
       },
-      "lastActivities": {
-        "hasMany": "Activityitem"
-      }
     },
     "Loadhistory": {
       "dailyTasks": { 
@@ -35,8 +32,5 @@
             "int" : { "min": 10, "max": 70}
         }
     },
-    "Activityitem": {
-        "id": { "int": { "min": 1272, "max": 8978878 } },
-    }
   }
   
