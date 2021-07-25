@@ -55,5 +55,8 @@
         "note": {
             "string": {}
         }
+    },
+    "Smtp": {
+        "smtpId": { "string": {} }
     }
 }
