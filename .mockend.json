@@ -67,7 +67,21 @@
         "dataSourceId": { "string": {} },
         "name": { "string": {} },
         "host": { "string": {} },
-        "userName": { "string": {} },
+        "userName": {
+            "string": [
+                "bgrimditch0",
+                "thydechambers0",
+                "rmaccaughey0",
+                "atoward0",
+                "mgooke0",
+                "nantcliff0",
+                "cweedon0",
+                "daylen0",
+                "jbigham0",
+                "psollars0",
+                "dpaladini0"
+            ]
+        },
         "password": { "string": {} },
         "port": { "string": {} }
     }
