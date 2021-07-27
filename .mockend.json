@@ -125,6 +125,9 @@
                 "2433",
                 "6073"
             ]
+        },
+        "dataSourceType": {
+            "belongsTo": "Datasourcetype"
         }
     },
     "Datasourcetype": {
