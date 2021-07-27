@@ -139,6 +139,6 @@
         "name": { "string": {} },
         "path": { "string": {} },
         "userName": { "string": {} },
-        "password": { "string;": {} }
+        "password": { "string": {} }
     }
 }
