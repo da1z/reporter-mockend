@@ -140,5 +140,18 @@
         "path": { "string": {} },
         "userName": { "string": {} },
         "password": { "string": {} }
+    },
+    "Task": {
+        "taskId": { "string": {} },
+        "name": { "string": {} },
+        "dataSource": {
+            "belongsTo": "Datasource"
+        },
+        "schedule": { "string": ["Daily", "Weakly", "Semi Weakly", "Monthly"] },
+        "group": { "string": ["System Alert", "Report"] },
+        "active": { "boolean": {} },
+        "sql": { "string": {} },
+        "deliveryMethod": { "string": ["Email", "Share folder", "sFTP", "Cloud"] },
+        "documentType": { "string": ["PDF", "Excl", "Crystal", "CSV"] }
     }
 }
