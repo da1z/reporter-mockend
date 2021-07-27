@@ -126,5 +126,9 @@
                 "6073"
             ]
         }
+    },
+    "Datasourcetype": {
+        "dataSourceTypeId": { "string": {} },
+        "name": { "string": ["Oracle", "MSSQL"] }
     }
 }
