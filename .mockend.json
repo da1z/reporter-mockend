@@ -62,5 +62,13 @@
         "userName": { "string": {} },
         "password": { "string": {} },
         "isWinAuth": { "boolean": {} }
+    },
+    "Datasource": {
+        "dataSourceId": { "string": {} },
+        "name": { "string": {} },
+        "host": { "string": {} },
+        "userName": { "string": {} },
+        "password": { "string": {} },
+        "port": { "string": {} }
     }
 }
