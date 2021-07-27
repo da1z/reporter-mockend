@@ -133,5 +133,12 @@
     "Datasourcetype": {
         "dataSourceTypeId": { "string": {} },
         "name": { "string": ["Oracle", "MSSQL"] }
+    },
+    "Share": {
+        "shareId": { "string": {} },
+        "name": { "string": {} },
+        "path": { "string": {} },
+        "userName": { "string": {} },
+        "password": { "string;": {} }
     }
 }
