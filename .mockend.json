@@ -65,8 +65,36 @@
     },
     "Datasource": {
         "dataSourceId": { "string": {} },
-        "name": { "string": {} },
-        "host": { "string": {} },
+        "name": {
+            "string": [
+                "Aerified",
+                "Zontrax",
+                "Tempsoft",
+                "Flowdesk",
+                "Tin",
+                "Greenlam",
+                "Stronghold",
+                "Fixflex",
+                "Prodder",
+                "Flexidy",
+                "Greenlam"
+            ]
+        },
+        "host": {
+            "string": [
+                "http://phoca.cz",
+                "http://census.gov",
+                "http://livejournal.com",
+                "http://squarespace.com",
+                "https://delicious.com",
+                "http://paginegialle.it",
+                "https://myspace.com",
+                "https://blogs.com",
+                "http://blogtalkradio.com",
+                "http://addtoany.com",
+                "http://joomla.org"
+            ]
+        },
         "userName": {
             "string": [
                 "bgrimditch0",
@@ -83,6 +111,20 @@
             ]
         },
         "password": { "string": {} },
-        "port": { "string": {} }
+        "port": {
+            "string": [
+                "8719",
+                "6275",
+                "1690",
+                "8787",
+                "4823",
+                "9456",
+                "5309",
+                "9598",
+                "7698",
+                "2433",
+                "6073"
+            ]
+        }
     }
 }
