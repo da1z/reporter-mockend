@@ -37,7 +37,27 @@
     },
     "Activityitem": {
         "actionId": { "int": { "min": 1232, "max": 12334224 } },
-        "actionDescription": { "string": {} },
+        "actionDescription": {
+            "string": [
+                "Scrap Daily Report Managers",
+                "Open CRM and CAPA report",
+                "TPU Material Availability",
+                "OS ready to be shipped",
+                "New Sales Order report for mfg",
+                "New Customer Complaint",
+                "RMA-Returns",
+                "Scrap Report 7AM",
+                "Sales Reports",
+                "Past Due PO's",
+                "Unconfirmed PO releases",
+                "Open QC Work Orders",
+                "Weekly Logistics Metrics",
+                "Varian Component Shortages",
+                "Daily Xi Scrap",
+                "Weekly Xi Scrap",
+                "Backorder with Gross Margin"
+            ]
+        },
         "isActive": { "boolean": {} },
         "comment": { "string": {} },
         "lastExecutionDate": {
@@ -143,7 +163,27 @@
     },
     "Task": {
         "taskId": { "string": {} },
-        "name": { "string": {} },
+        "name": {
+            "string": [
+                "Scrap Daily Report Managers",
+                "Open CRM and CAPA report",
+                "TPU Material Availability",
+                "OS ready to be shipped",
+                "New Sales Order report for mfg",
+                "New Customer Complaint",
+                "RMA-Returns",
+                "Scrap Report 7AM",
+                "Sales Reports",
+                "Past Due PO's",
+                "Unconfirmed PO releases",
+                "Open QC Work Orders",
+                "Weekly Logistics Metrics",
+                "Varian Component Shortages",
+                "Daily Xi Scrap",
+                "Weekly Xi Scrap",
+                "Backorder with Gross Margin"
+            ]
+        },
         "dataSource": {
             "belongsTo": "Datasource"
         },
